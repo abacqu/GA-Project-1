@@ -10,26 +10,45 @@ const $input = $('input[type="text"]');
 
 // EVENT LISTENERS
 
-$form.on('submit',handleGetData)
+$form.on('submit',getCityId)
 
 // FUNCTIONS
 
-function handleGetData(event){
-
+function getCityId(event) {
     event.preventDefault()
     const userInput = $input.val();
 
-    $.ajax(URL + userInput).then(function(data) {
-        console.log('city data is ready')
-        console.log(data)
-        //returning data from city name
-        $city.text(data.City)
-        $publictransport.text(data.Publictransport)
-        $lunch.text(data.Lunch)
-        $('main').append(`<img src="${data.Poster}"/>`)
-    }, function(error) {
-        console.log('something is wrong')
-        console.log(error)
+    $.ajax(URL + 'cities/?search=' + userInput).then(function(data) {
+        console.log('city data is ready ' + data);
+        console.log(data._embedded["city:search-results"]);
     })
-
+    
 }
+
+
+
+
+
+
+
+
+
+// function handleGetData(event){
+
+//     event.preventDefault()
+//     const userInput = $input.val();
+
+//     $.ajax(URL + userInput).then(function(data) {
+//         console.log('city data is ready')
+//         console.log(data)
+//         //returning data from city name
+//         $city.text(data.City)
+//         $publictransport.text(data.Publictransport)
+//         $lunch.text(data.Lunch)
+//         $('main').append(`<img src="${data.Poster}"/>`)
+//     }, function(error) {
+//         console.log('something is wrong')
+//         console.log(error)
+//     })
+
+// }
