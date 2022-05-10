@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -21,8 +25,32 @@ body {
     color: whitesmoke;
 }
 
+/* aside {
+    padding-left: 50px;
+    margin-right: 20px;
+    position: relative;
+    float: left;
+} */
+
+/* 
 main {
-    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 50px;
+    vertical-align: middle;
+    position: relative;
+    text-align:right;
+    display: inline-block;
+} */
+
+.mainimage {
+    float: left;
+
+}
+
+.cityheaders {
+    float: right;
+    padding-right: 50px;
 }
 
 form {
@@ -36,10 +64,4 @@ h1 {
 
 footer {
     background-color: rgb(70, 123, 223);
-}
-
-.flex-ctr {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
