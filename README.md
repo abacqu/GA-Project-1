@@ -13,8 +13,8 @@ A web application that allows users to search major cities and view their qualit
 
 WireFrame WIP 
 
+![image](https://user-images.githubusercontent.com/104287541/167693946-8cf33c3d-51e7-4fae-89c5-62947f75bddb.png)
 
-![image](https://user-images.githubusercontent.com/104287541/167206071-233c3fdb-2dad-43cf-a1f0-af522f0f484c.png)
 
 
 Trello Link: 
