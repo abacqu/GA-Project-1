@@ -1,4 +1,16 @@
 # Quality-Of-Life
+
+A web application that allows users to search major cities and view their quality of life ratings using the Teleport API
+
+# Technologies Used
+
+- HTML5
+- CSS3
+- jQuery
+- JavaScript
+- Teleport API
+
+
 WireFrame WIP 
 
 
