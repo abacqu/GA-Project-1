@@ -1,9 +1,45 @@
-body {
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 50px;
     background-color: rgb(70, 123, 223);
+}
+
+nav>div:last-child {
+    margin-left: auto;
+    color: red;
+}
+
+
+body {
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    font-family: Helvetica;
+    background-color: #a2cbb6;
     color: whitesmoke;
+}
+
+main {
+    text-align: center;
+}
+
+form {
+    text-align: left;
 }
 
 h1 {
     text-align: center;
     color: whitesmoke;
+}
+
+footer {
+    background-color: rgb(70, 123, 223);
+}
+
+.flex-ctr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
