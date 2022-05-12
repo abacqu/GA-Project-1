@@ -9,8 +9,13 @@ A web application that allows users to search major cities and view their qualit
 - jQuery
 - JavaScript
 - Teleport API
+- 
 
-![image](../../../Downloads/Screen%20Shot%202022-05-12%20at%2012.59.07%20PM.png)
+<img width="1437" alt="Screen Shot 2022-05-12 at 12 59 07 PM" src="https://user-images.githubusercontent.com/104287541/168140206-3b9c4da9-409b-4170-a5f4-9c1e7ae77fcf.png">
+
+# Getting Started
+
+User has ability to enter the name of a major city to yield scores
 
 WireFrame WIP 
 
