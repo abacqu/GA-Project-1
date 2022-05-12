@@ -10,6 +10,7 @@ A web application that allows users to search major cities and view their qualit
 - JavaScript
 - Teleport API
 
+![image](../../../Downloads/Screen%20Shot%202022-05-12%20at%2012.59.07%20PM.png)
 
 WireFrame WIP 
 
