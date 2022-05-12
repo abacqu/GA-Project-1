@@ -16,6 +16,7 @@ const $main = $('main');
 // $main.append($cityInfo);
 
 
+
 // EVENT LISTENERS
 
 $form.on('submit', getCityId)
@@ -27,7 +28,7 @@ function getCityId(event) {
     const userInput = $input.val();
 
     $.ajax(URL + 'cities/?search=' + userInput).then(function (data) {
-        console.log( data);
+        console.log(data);
         $city.hide().fadeIn(1000);
         $city.text(data._embedded["city:search-results"][0].matching_full_name);
         let hrefGeoId = data._embedded["city:search-results"][0]._links["city:item"].href
@@ -50,8 +51,8 @@ function getUrbanSlug(getGeoCityId) {
     });
 }
 
-function getUrbanDetails(getUrbanSlug) {
-    $.ajax(URL + `urban_areas/${getUrbanSlug}/details/`).then(function (data) {
+function getUrbanDetails(urbanSlug) {
+    $.ajax(URL + `urban_areas/${urbanSlug}/details/`).then(function (data) {
 
         console.log(data.categories[3].data[7].currency_dollar_value);
         $publictransport.hide().fadeIn(1000);
@@ -61,8 +62,8 @@ function getUrbanDetails(getUrbanSlug) {
     })
 }
 
-function getUrbanScores(getUrbanSlug) {
-    $.ajax(URL + `urban_areas/${getUrbanSlug}/scores/`).then(function (data) {
+function getUrbanScores(urbanSlug) {
+    $.ajax(URL + `urban_areas/${urbanSlug}/scores/`).then(function (data) {
         $housing.hide().fadeIn(1000);
         $costofliving.hide().fadeIn(1000);
         $housing.text(data.categories[0].score_out_of_10);
@@ -70,9 +71,8 @@ function getUrbanScores(getUrbanSlug) {
     })
 }
 
-function getImage(getUrbanSlug) {
-    $.ajax(URL + `urban_areas/${getUrbanSlug}/images/`).then(function (data) {
-        // console.log(data.photos[0].image["web"]);
+function getImage(urbanSlug) {
+    $.ajax(URL + `urban_areas/${urbanSlug}/images/`).then(function (data) {
         $img.hide().fadeIn(1000);
         $img.attr('src', data.photos[0].image["web"]);
         $img.width('70%');

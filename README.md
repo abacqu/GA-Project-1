@@ -20,3 +20,8 @@ WireFrame WIP
 Trello Link: 
 
 https://trello.com/b/yzD6fhjS/quality-of-life-project
+
+
+GitHub Page Link:
+
+https://abacqu.github.io/Quality-of-Life-Project/

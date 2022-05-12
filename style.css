@@ -25,23 +25,6 @@ body {
     color: whitesmoke;
 }
 
-/* aside {
-    padding-left: 50px;
-    margin-right: 20px;
-    position: relative;
-    float: left;
-} */
-
-/* 
-main {
-    max-width: 500px;
-    margin: auto;
-    padding-right: 50px;
-    vertical-align: middle;
-    position: relative;
-    text-align:right;
-    display: inline-block;
-} */
 
 .mainimage {
     float: left;
@@ -64,4 +47,11 @@ h1 {
 
 footer {
     background-color: rgb(70, 123, 223);
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.footera {
+    text-decoration: none;
+    color: whitesmoke;
 }
