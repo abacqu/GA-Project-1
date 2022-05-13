@@ -15,6 +15,10 @@ A web application that allows users to search major cities and view their qualit
 
 # Getting Started
 
+GitHub Page Link:
+
+https://abacqu.github.io/Quality-of-Life-Project/
+
 User has ability to enter the name of a major city to yield scores
 
 WireFrame WIP 
@@ -28,6 +32,7 @@ Trello Link:
 https://trello.com/b/yzD6fhjS/quality-of-life-project
 
 
-GitHub Page Link:
+# Future Planning
 
-https://abacqu.github.io/Quality-of-Life-Project/
+I plan on adding a transform that will activate with a click of a button
+I plan to enhance the styling of the page to look more modern
