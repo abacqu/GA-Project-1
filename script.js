@@ -11,10 +11,6 @@ const $img = $('<img>');
 const $input = $('input[type="text"]');
 const $main = $('main');
 
-// const $cityInfo = $('<div>');
-// $cityInfo.addClass('cityInfo');
-// $main.append($cityInfo);
-
 
 
 // EVENT LISTENERS
