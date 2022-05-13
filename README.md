@@ -21,18 +21,16 @@ https://abacqu.github.io/Quality-of-Life-Project/
 
 User has ability to enter the name of a major city to yield scores
 
-WireFrame WIP 
+User will have ability to reset the page by using the Home button
 
-![image](https://user-images.githubusercontent.com/104287541/167693946-8cf33c3d-51e7-4fae-89c5-62947f75bddb.png)
+User will be able to follow a link within the footer to find a flight
 
 
 
-Trello Link: 
-
-https://trello.com/b/yzD6fhjS/quality-of-life-project
 
 
 # Future Planning
 
-I plan on adding a transform that will activate with a click of a button
-I plan to enhance the styling of the page to look more modern
+Adding a transform that will activate with a click of a button
+
+Enhance the styling of the page to look more modern
